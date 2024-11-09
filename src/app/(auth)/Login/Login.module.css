@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px;
+    font-size: "16px";
+    cursor: pointer;
+    background-color: var(--text);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.button_register{
+    padding: 10px;
+    font-size: "18px";
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--bg);
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+}
